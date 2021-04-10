@@ -1,0 +1,54 @@
+        .slideamin {visibility: hidden;}
+         .slide{
+            animation-name: slide;
+            -webkit-animation-name:slide;
+            animation-duration: 1s;
+            -webkit-animation-duration:1s;
+            visibility: visible;
+
+         }
+         @keyframes slide {
+            0% {
+                opacity: 0;
+                transform: translateY(70%);
+            }
+            100%
+            {
+                opacity: 1;
+                transform: translateY(0%);
+            }
+         }
+          @-webkit-keyframes slide {
+            0% {
+                opacity: 0;
+                transform: translateY(70%);
+            }
+            100%
+            {
+                opacity: 1;
+                transform: translateY(0%);
+            }
+         }
+         .ToTop {
+            text-align: center;
+            display: flex;
+            vertical-align: center;
+            justify-content: center;
+            align-items: center;
+
+                position: fixed;
+                width: 100%;
+               bottom: 20px;
+            
+
+            visibility: hidden;
+            opacity: 0;
+         }
+        .hien-ra
+         {
+             visibility: visible;
+            opacity: 1;
+               position: fixed;
+                width: 100%;
+               bottom: 20px;
+         }
